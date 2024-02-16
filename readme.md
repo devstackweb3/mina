@@ -74,7 +74,11 @@ For this example on Berkeley Testnet, use:
 - **transfer** | handling NFT transfers
 - **getState** | display public address of the wallet holding the tokens
 
-### References
+## References
+Official documentation Mina Protocol 
+
+https://docs.minaprotocol.com/zkapps/how-to-write-a-zkapp
+
 Project shared during the ETHAMSTERDAM (2022 | Event)
 
 https://ethglobal.com/showcase/minaft-b1f35
