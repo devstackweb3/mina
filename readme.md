@@ -1,7 +1,8 @@
 # MinaFT | Zero-Knowledge App -> zkApp
 
 First ERC721 like smart contract on Mina Protocol with basic NFT minting and transferring UI.
-Project shared during the ETHAMSTERDAM (2022 | Event)
+
+Project shared during the ETHAMSTERDAM (2022 | Event).
 
 ### Zero-Knowledge App (zkApp) Functionning
 
