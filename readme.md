@@ -22,7 +22,7 @@ This generated cryptographic signature proves the honesty of the contract's oper
 - **deploy** | deploying the token contract to the blockchain
 - **mint** | minting NFTs
 - **transfer** | handling NFT transfers
-- getState | display public address of the wallet holding the tokens
+- **getState** | display public address of the wallet holding the tokens
 
 #### References
 
