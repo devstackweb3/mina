@@ -25,5 +25,6 @@ This generated cryptographic signature proves the honesty of the contract's oper
 
 #### References
 Project shared during the ETHAMSTERDAM (2022 | Event)
+
 https://ethglobal.com/showcase/minaft-b1f35
 https://github.com/orkunkilic/MinaFT/blob/main/src/index.ts
