@@ -24,13 +24,13 @@ Install zkApp CLI :
 npm install -g zkapp-cli
 ```
 ### Start own Project 
-1. Create own project
+**1. Create own project**
 ```sh
 zk project <mynamedproj>
 ```
 Inside **src** directory is built a *the smart contract* file. 
 
-2. Select an accompanying UI framework : 
+**2. Select an accompanying UI framework**
 ```sh
 ? Create an accompanying UI project too? …
 ❯ next
@@ -39,19 +39,33 @@ nuxt
 empty
 none
 ```
-3. Running tests
+**3. Running tests**
 ```sh
 npm run test
 ```
-3.1 Re-running tests automatically
+**3.1 Re-running tests automatically**
 ```sh
 npm run testw
 ```
-4. Configure zkApp
+**4. Configure zkApp**
 ```sh
 zk config
 ```
+The command prompts guide you to add a deploy alias to your project [config.json] file.
 
+The deploy alias can be anything you want. For more details, see Deploy alias in Tutorial 3: Deploy to a Live Network.
+
+For this example on Berkeley Testnet, use:
+
+Deploy alias name: [berkeley]
+
+This example uses [berkeley], but the deploy alias name can be anything and does not have to match the network name.
+
+Mina GraphQL API URL: [https://proxy.berkeley.minaexplorer.com/graphql]
+
+Transaction fee to use when deploying: [0.1]
+
+Account to pay transaction fees: Create a new fee payer pair
 ## Smart Contract Structure
 
 - **main** | mina protocol connexion
