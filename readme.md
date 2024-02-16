@@ -57,15 +57,15 @@ The deploy alias can be anything you want. For more details, see Deploy alias in
 
 For this example on Berkeley Testnet, use:
 
-Deploy alias name: [berkeley]
+- Deploy alias name: [berkeley]
 
-This example uses [berkeley], but the deploy alias name can be anything and does not have to match the network name.
+- This example uses [berkeley], but the deploy alias name can be anything and does not have to match the network name.
 
-Mina GraphQL API URL: [https://proxy.berkeley.minaexplorer.com/graphql]
+- Mina GraphQL API URL: [https://proxy.berkeley.minaexplorer.com/graphql]
 
-Transaction fee to use when deploying: [0.1]
+- Transaction fee to use when deploying: [0.1]
 
-Account to pay transaction fees: Create a new fee payer pair
+- Account to pay transaction fees: Create a new fee payer pair
 ## Smart Contract Structure
 
 - **main** | mina protocol connexion
