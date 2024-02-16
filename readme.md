@@ -2,7 +2,7 @@
 
 First ERC721 like smart contract on Mina Protocol with basic NFT minting and transferring UI.
 
-### Zero-Knowledge App (zkApp) Functionning
+## Zero-Knowledge App (zkApp) Functionning
 
 Deploying a smart contract on mina protocol is done in a completely different way to the standard way on Ethereum.
 
@@ -15,7 +15,44 @@ Instead, a library previously installed by the developer is used to cryptographi
 
 This generated cryptographic signature proves the honesty of the contract's operation, the owner behind it, and data stored on it without revealing any of the raw data recorded. By asking a series of conditional questions, he is able to summarise the validity of the application.
 
-### Smart Contract Structure
+Fundamentally, a zkApp consists of a smart contract and a UI to interact with it.
+
+## zkApp Initialisation 
+Initialize the necessary libraries to interpret correctly the methods and configured rules by MINA Foundation and O1Labs company. 
+Install zkApp CLI :
+```sh
+npm install -g zkapp-cli
+```
+### Start own Project 
+1. Create own project
+```sh
+zk project <mynamedproj>
+```
+Inside **src** directory is built a *the smart contract* file. 
+
+2. Select an accompanying UI framework : 
+```sh
+? Create an accompanying UI project too? …
+❯ next
+svelte
+nuxt
+empty
+none
+```
+3. Running tests
+```sh
+npm run test
+```
+3.1 Re-running tests automatically
+```sh
+npm run testw
+```
+4. Configure zkApp
+```sh
+zk config
+```
+
+## Smart Contract Structure
 
 - **main** | mina protocol connexion
 - **deploy** | deploying the token contract to the blockchain
@@ -23,7 +60,7 @@ This generated cryptographic signature proves the honesty of the contract's oper
 - **transfer** | handling NFT transfers
 - **getState** | display public address of the wallet holding the tokens
 
-#### References
+### References
 Project shared during the ETHAMSTERDAM (2022 | Event)
 
 https://ethglobal.com/showcase/minaft-b1f35
