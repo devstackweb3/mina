@@ -91,7 +91,7 @@ git remote add origin "https://devstackweb3:MYPASSWORD@github.com/devstackweb3/m
 l/minanft.git"
 ```
 
-Taking taking a step back from the configuration of the local repository, I noticed that default configuration of project has started with the name of MinaNF dedicated to Github repo name. A name by default accessible in next.config.js and pages/reactCOIServiceWorker.tsx, for any possible changes. 
+Taking a step back from the configuration of the local repository, I noticed that default configuration of project has started with the name of MinaNF dedicated to Github repo name. A name by default accessible in next.config.js and pages/reactCOIServiceWorker.tsx, for any possible changes. Starts to try with this name. 
 
 ### Issue 1.0 | SnarkyJS Library depreciated
 It's necessary to update imports and methods used in the previous reference for a clear interpretation by libraries. 
