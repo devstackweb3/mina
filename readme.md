@@ -115,8 +115,7 @@ Solution with [token credentials](https://docs.github.com/en/authentication/keep
 git remote set-url origin https://PERSONAL_ACCESS_TOKEN@github.com/username/reponame.git
 ```
 
-Taking a step back from the configuration of the local repository, I noticed that default configuration of project has started with the name of MinaNF dedicated to Github repo name. A name by default accessible in next.config.js and pages/reactCOIServiceWorker.tsx, for any possible changes. Starts to try with this name. 
-In fact the project was created under a new repo named MinaNF.git. As understood from the following error : 
+Taking a step back from the configuration of the local repository, I noticed that default configuration of project has started with the name of MinaNF dedicated to Github repo name. A name by default accessible in next.config.js and pages/reactCOIServiceWorker.tsx, for any possible changes. In fact the project was created under a new repo named MinaNF.git.
 
 #### Issue 0.1 | fatal refusing to merge unrelated histories 
 Following an attempt to pull a request from the current remote main branch stated inside the "https://github.com/devstackweb3/mina-protocol" through the remote add origin, this error occurs when [2 totally different git projects](https://www.educative.io/answers/the-fatal-refusing-to-merge-unrelated-histories-git-error) try to be merged together.
@@ -126,11 +125,29 @@ To solve the problem, the [following command](https://github.com/git/git/blob/ma
 ```sh
 git pull origin master --allow-unrelated-histories
 ```
-#### Partial Solution | 
+#### Partial Solution | Updating remote repository mina-protocol.git
 Context : GitHub repo has seen new commits pushed to it, while were working locally : 
 ```sh
 git pull --rebase origin main
 ```
+```sh
+git push origin main
+```
+
+#### Solution | Updating remote repository 
+Add all modified documents/folders or new documents/folders created. 
+```sh
+git add .
+```
+Naming the latest changes and putting in pre-deliver mode before pushing repository to the remote side on github. 
+```sh
+git commit -m "MYNAMEDUPDATEDCOMMIT"
+```
+Adapting the updates to the remote github repository before pushing. 
+```sh
+git pull --rebase origin main
+```
+Pushing the whole commits made on the branch named "main". 
 ```sh
 git push origin main
 ```
