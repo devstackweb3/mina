@@ -100,7 +100,8 @@ git push -u origin main
 ```
 Possible READ only access, lack of administrator use connexion with remote library. 
 
-Solution with password integration is **too old** & [seems deprecated](https://stackoverflow.com/questions/10116373/git-push-error-repository-not-found). 
+Solution with password integration is **too old** & [seems deprecated](https://stackoverflow.com/questions/10116373/git-push-error-repository-not-found).
+**Github removed** use of username and password on **August 13, 2021**.
 ```sh
 git remote add origin "https://devstackweb3:MYPASSWORD@github.com/devstackweb3/mina-protocol/minanft.git"
 ```
