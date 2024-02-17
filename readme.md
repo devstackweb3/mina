@@ -74,7 +74,26 @@ For this example on Berkeley Testnet, use:
 - **transfer** | handling NFT transfers
 - **getState** | display public address of the wallet holding the tokens
 
-### 1.0 | SnarkyJS Library depreciated
+### Issue 0.0 | git fatal: unable to access 'https://github.com/devstackweb3/mina-protocol/minanft.git/': URL using bad/illegal format or missing URL
+Issue trying to push in a sub-directory from a local repository made on desktop.
+```sh
+git remote add origin 'https://github.com/devstackweb3/mina-protocol/minanft.git'
+git push -u origin main
+```
+Possible single quote issue with the problem of identification URL path. 
+```sh
+git remote add origin "https://github.com/devstackweb3/mina-protocol/minanft.git"
+git push -u origin main
+```
+Possible READ only access, lack of administrator use connexion with library. 
+```sh
+git remote add origin "https://devstackweb3:MYPASSWORD@github.com/devstackweb3/mina-protoco
+l/minanft.git"
+```
+
+Taking taking a step back from the configuration of the local repository, I noticed that default configuration of project has started with the name of MinaNF dedicated to Github repo name. A name by default accessible in next.config.js and pages/reactCOIServiceWorker.tsx, for any possible changes. 
+
+### Issue 1.0 | SnarkyJS Library depreciated
 It's necessary to update imports and methods used in the previous reference for a clear interpretation by libraries. 
 ![image](https://github.com/devstackweb3/mina-protocol/assets/118926098/e0c5996e-b78f-42db-8acb-31e3007aa9d2)
 
