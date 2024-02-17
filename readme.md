@@ -98,10 +98,18 @@ Possible single quote issue with the problem of identification URL path.
 git remote add origin "https://github.com/devstackweb3/mina-protocol/minanft.git"
 git push -u origin main
 ```
-Possible READ only access, lack of administrator use connexion with library. 
+Possible READ only access, lack of administrator use connexion with remote library. 
+Solution with password integration is too old & seems deprecated. 
 ```sh
 git remote add origin "https://devstackweb3:MYPASSWORD@github.com/devstackweb3/mina-protoco
 l/minanft.git"
+```
+
+Possible READ only access, lack of administrator use connexion with remote library. 
+Solution with token credentials is more recent (2022). 
+
+```sh
+git remote set-url origin https://PERSONAL_ACCESS_TOKEN@github.com/username/reponame.git
 ```
 
 Taking a step back from the configuration of the local repository, I noticed that default configuration of project has started with the name of MinaNF dedicated to Github repo name. A name by default accessible in next.config.js and pages/reactCOIServiceWorker.tsx, for any possible changes. Starts to try with this name. 
