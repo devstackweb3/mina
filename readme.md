@@ -80,6 +80,19 @@ Issue trying to push in a sub-directory from a local repository made on desktop.
 git remote add origin 'https://github.com/devstackweb3/mina-protocol/minanft.git'
 git push -u origin main
 ```
+remote: Not Found
+fatal: repository 'https://github.com/devstackweb3/mina-protocol/minanft.git/' not found
+
+First of all checking the status of push attempts in the remote add origin state. 
+```sh
+git remote -v
+```
+
+Remove previous repo added in the remote side before push attempt. 
+```sh
+git remote rm origin
+```
+
 Possible single quote issue with the problem of identification URL path. 
 ```sh
 git remote add origin "https://github.com/devstackweb3/mina-protocol/minanft.git"
