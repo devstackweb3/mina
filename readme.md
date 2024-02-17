@@ -127,7 +127,7 @@ To solve the problem, the [following command](https://github.com/git/git/blob/ma
 git pull origin master --allow-unrelated-histories
 ```
 #### Partial Solution | 
-
+Context : GitHub repo has seen new commits pushed to it, while were working locally : 
 ```sh
 git pull --rebase origin main
 ```
