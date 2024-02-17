@@ -99,7 +99,8 @@ git remote add origin "https://github.com/devstackweb3/mina-protocol/minanft.git
 git push -u origin main
 ```
 Possible READ only access, lack of administrator use connexion with remote library. 
-Solution with password integration is too old & seems deprecated. 
+
+Solution with password integration is **too old** & seems deprecated. 
 ```sh
 git remote add origin "https://devstackweb3:MYPASSWORD@github.com/devstackweb3/mina-protocol/minanft.git"
 ```
