@@ -126,6 +126,14 @@ To solve the problem, the [following command](https://github.com/git/git/blob/ma
 ```sh
 git pull origin master --allow-unrelated-histories
 ```
+#### Partial Solution | 
+
+```sh
+git pull --rebase origin main
+```
+```sh
+git push origin main
+```
 
 ### Issue 1.0 | SnarkyJS Library depreciated
 It's necessary to update imports and methods used in the previous reference for a clear interpretation by libraries. 
