@@ -117,8 +117,8 @@ Taking a step back from the configuration of the local repository, I noticed tha
 In fact the project was created under a new repo named MinaNF.git. As understood from the following error : 
 
 #### Issue 0.1 | fatal refusing to merge unrelated histories 
-Following an attempt to pull a request from the current remote main branch stated inside the "https://github.com/devstackweb3/mina-protocol" through the remote add origin, this error occurs when 2 totally different projects try to be merged together. 
-![image](https://github.com/devstackweb3/mina-protocol/assets/118926098/33984b3d-33f7-45cd-94b9-486c7c30fcf3)
+Following an attempt to pull a request from the current remote main branch stated inside the "https://github.com/devstackweb3/mina-protocol" through the remote add origin, this error occurs when [2 totally different git projects](https://www.educative.io/answers/the-fatal-refusing-to-merge-unrelated-histories-git-error) try to be merged together.
+
 To solve the problem, the [following command](https://github.com/git/git/blob/master/Documentation/RelNotes/2.9.0.txt#L58-L68) is helpfull : 
 
 ```sh
