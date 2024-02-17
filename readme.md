@@ -125,7 +125,7 @@ To solve the problem, the [following command](https://github.com/git/git/blob/ma
 ```sh
 git pull origin master --allow-unrelated-histories
 ```
-#### Partial Solution | Updating remote repository mina-protocol.git
+### Partial Solution | Updating remote repository mina-protocol.git
 Context : GitHub repo has seen new commits pushed to it, while were working locally : 
 ```sh
 git pull --rebase origin main
@@ -134,7 +134,7 @@ git pull --rebase origin main
 git push origin main
 ```
 
-#### Solution | Updating remote repository 
+### Solution | Updating remote repository 
 Add all modified documents/folders or new documents/folders created. 
 ```sh
 git add .
