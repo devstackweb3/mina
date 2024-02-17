@@ -74,7 +74,9 @@ For this example on Berkeley Testnet, use:
 - **transfer** | handling NFT transfers
 - **getState** | display public address of the wallet holding the tokens
 
-### Issue 0.0 | git fatal: unable to access 'https://github.com/devstackweb3/mina-protocol/minanft.git/': URL using bad/illegal format or missing URL
+### Issue 0.0 | git remote repository synchronisation with local repo
+
+#### git fatal: unable to access 'https://github.com/devstackweb3/mina-protocol/minanft.git/': URL using bad/illegal format or missing URL
 Issue trying to push in a sub-directory from a local repository made on desktop.
 ```sh
 git remote add origin 'https://github.com/devstackweb3/mina-protocol/minanft.git'
