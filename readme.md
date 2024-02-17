@@ -126,7 +126,7 @@ To solve the problem, the [following command](https://github.com/git/git/blob/ma
 git pull origin master --allow-unrelated-histories
 ```
 ### Partial Solution | Updating remote repository mina-protocol.git
-Context : GitHub repo has seen new commits pushed to it, while were working locally : 
+Context : GitHub repo [has seen](https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote) new commits pushed to it, while were working locally : 
 ```sh
 git pull --rebase origin main
 ```
